@@ -7,12 +7,12 @@
 database.adapter        			= pdo_mysql
 database.utf8            			= true
 database.params.host     			= localhost
-database.params.username 			= root
+database.params.username 			= simple_invoices
 database.params.password 			= ''
 database.params.dbname   			= simple_invoices
 database.params.port       			= 3306
 
-authentication.enabled	 			= false
+authentication.enabled	 			= true
 authentication.http 				= 
 
 export.spreadsheet	     			= xls
@@ -24,7 +24,7 @@ export.pdf.rightmargin	 			= 15
 export.pdf.topmargin	 			= 15
 export.pdf.bottommargin 			= 15
 
-local.locale	    				= en_GB
+local.locale	    				= sv_SE
 local.precision		    			= 2
 ; datelength can be any of the Zend_Date lenghts - full, long, medium, short
 local.datelength                               = short
